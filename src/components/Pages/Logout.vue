@@ -3,7 +3,7 @@
 <template>
   <div id="pages">
     <a href="/">
-      <div class="flex items-center justify-start gap-2 w-full h-12 px-2 my-3 font-bold text-sm text-font-sidebar-color rounded-md hover:bg-gray-700 hover:text-gray-300">
+      <div class="flex items-center justify-start w-full gap-2 h-8 px-2 my-2 font-bold text-sm text-font-sidebar-color rounded-md hover:text-gray-300">
         <img :src="img" alt="img">
         <h2>{{text}}</h2>
       </div>
@@ -15,7 +15,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'PagesSideBar',
+  name: 'LogoutComponent',
   props: {
     img: String,
     text: String,
