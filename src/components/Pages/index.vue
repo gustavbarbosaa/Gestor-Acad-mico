@@ -2,7 +2,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div id="pages">
-    <a href="/">
+    <a :href="route">
       <div class="flex items-center justify-start gap-2 w-full h-12 px-2 my-3 font-bold text-sm text-font-sidebar-color rounded-md hover:bg-gray-700 hover:text-gray-300">
         <img :src="img" alt="img">
         <h2>{{text}}</h2>
@@ -19,6 +19,7 @@ export default defineComponent({
   props: {
     img: String,
     text: String,
+    route: String,
   },
 });
 </script>

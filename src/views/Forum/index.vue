@@ -1,10 +1,20 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <h1>Forum</h1>
+  <div id="forum">
+    <div id="home" class="flex bg-home-background-color">
+      <SideBar/>
+      <div>
+        <h1>Forum</h1>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
-export default {
+import SideBar from '../../components/SideBar/index.vue';
 
+export default {
+  name: 'MyForum',
+  components: { SideBar },
 };
 </script>

@@ -8,21 +8,61 @@
         <h2 class="text-font-sidebar-color font-bold text-sm">Projeto e-GA</h2>
       </div>
       <div id="pages-side-bar" class="mx-2 border-b border-border-color">
-        <PagesSideBar :img="require('../../assets/images/arquivos.png')" :text="textArq"/>
-        <PagesSideBar :img="require('../../assets/images/cadastro.png')" :text="textCad"/>
-        <PagesSideBar :img="require('../../assets/images/financeiro.png')" :text="textFin"/>
-        <PagesSideBar :img="require('../../assets/images/consultas.png')" :text="textCons"/>
-        <PagesSideBar :img="require('../../assets/images/frequencia.png')" :text="textFreq"/>
-        <PagesSideBar :img="require('../../assets/images/notas.png')" :text="textNot"/>
-        <PagesSideBar :img="require('../../assets/images/plano.png')" :text="textPlano"/>
+        <PagesSideBar
+        :img="require('../../assets/images/arquivos.png')"
+        :text="textFile"
+        :route="construction"
+        />
+        <PagesSideBar
+        :img="require('../../assets/images/cadastro.png')"
+        :text="textRegister"
+        :route="register"
+        />
+        <PagesSideBar
+        :img="require('../../assets/images/financeiro.png')"
+        :text="textFinancial"
+        :route="construction"
+        />
+        <PagesSideBar
+        :img="require('../../assets/images/consultas.png')"
+        :text="textQueries"
+        :route="queries"
+        />
+        <PagesSideBar
+        :img="require('../../assets/images/frequencia.png')"
+        :text="textFrequency"
+        :route="construction"
+        />
+        <PagesSideBar
+        :img="require('../../assets/images/notas.png')"
+        :text="textGrades"
+        :route="construction"
+        />
+        <PagesSideBar
+        :img="require('../../assets/images/plano.png')"
+        :text="textFlat"
+        :route="construction"
+        />
       </div>
       <div id="logout" class="w-full h-12 px-2 my-3">
-        <PagesSideBar :img="require('../../assets/images/forum.png')" :text="textForum" />
+        <PagesSideBar
+        :img="require('../../assets/images/forum.png')"
+        :text="textForum"
+        :route="forum"
+        />
       </div>
     </div>
     <div class="flex flex-col items-center">
-      <LogoutComponent :img="require('../../assets/images/engrenagem.png')" :text="textSenha" />
-      <LogoutComponent :img="require('../../assets/images/sair.png')" :text="textSair" />
+      <LogoutComponent
+      :img="require('../../assets/images/engrenagem.png')"
+      :text="textPassword"
+      :route="construction"
+      />
+      <LogoutComponent
+      :img="require('../../assets/images/sair.png')"
+      :text="textExit"
+      :route="construction"
+      />
     </div>
   </div>
 </template>
@@ -40,16 +80,21 @@ export default defineComponent({
   },
   data() {
     return {
-      textArq: 'Meus Arquivos',
-      textCad: 'Meu Cadastro',
-      textFin: 'Financeiro',
-      textCons: 'Consultas',
-      textFreq: 'Frequência',
-      textNot: 'Notas',
-      textPlano: 'Plano de Aula',
+      textFile: 'Meus Arquivos',
+      textRegister: 'Meu Cadastro',
+      textFinancial: 'Financeiro',
+      textQueries: 'Consultas',
+      textFrequency: 'Frequência',
+      textGrades: 'Notas',
+      textFlat: 'Plano de Aula',
       textForum: 'Fórum de Turmas',
-      textSenha: 'Trocar senha',
-      textSair: 'Sair',
+      textPassword: 'Trocar senha',
+      textExit: 'Sair',
+
+      forum: '/forum',
+      construction: '/construction',
+      register: '/register',
+      queries: '/queries',
     };
   },
 });

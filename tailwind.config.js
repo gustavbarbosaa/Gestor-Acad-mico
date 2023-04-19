@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'home-background-color': '#D1D5DB',
         'sidebar-background-color': '#152D5D',
+        'blue-home-color': '#162E5E',
         'font-sidebar-color': '#9CA3AF',
         'font-home-color': '#353638',
         'border-color': '#343F52',
