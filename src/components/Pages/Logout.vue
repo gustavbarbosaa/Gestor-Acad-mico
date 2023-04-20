@@ -3,8 +3,8 @@
 <template>
   <div id="logout">
     <a :href="route">
-      <div class="flex items-center justify-start w-full gap-2 h-8 px-2 my-2 font-bold text-sm text-font-sidebar-color rounded-md hover:text-gray-300">
-        <img :src="img" alt="img">
+      <div class="flex items-center justify-start w-full gap-2 px-2 my-2 font-bold text-sm text-font-sidebar-color rounded-md hover:text-gray-300">
+        <i :class="img"></i>
         <h2>{{text}}</h2>
       </div>
     </a>
