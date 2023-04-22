@@ -10,6 +10,8 @@ module.exports = {
         'font-sidebar-color': '#9CA3AF',
         'font-home-color': '#353638',
         'border-color': '#343F52',
+        'background-form': '#F8FAFC',
+        'background-form-cad': '#EEF0F2',
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],

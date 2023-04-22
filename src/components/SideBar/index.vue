@@ -1,7 +1,7 @@
 <!-- eslint-disable max-len -->
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div id="side-bar" class="bg-sidebar-background-color w-72 h-screen flex flex-col">
+  <div id="side-bar" class="bg-sidebar-background-color w-72 h-screen flex flex-col justify-between pb-4">
     <div>
       <div id="logo" class="flex items-center gap-5 mx-2 pt-3 pb-2 border-b border-border-color">
         <img src="../../assets/images/icon-e-ga.png" alt="" class="w-11 h-11">
