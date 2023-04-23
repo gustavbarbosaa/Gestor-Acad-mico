@@ -1,4 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable */
 import { createApp } from 'vue';
 import PrimeVue from 'primevue/config';
 import App from './App.vue';

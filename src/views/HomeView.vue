@@ -1,6 +1,6 @@
 <!-- eslint-disable max-len -->
 <template>
-  <div id="home" class="flex bg-home-background-color">
+  <div id="home" class="flex h-full bg-home-background-color">
     <SideBar />
     <div class="container-home flex items-center justify-center w-full gap-10 sm:m-8 sm:gap-0">
       <div class="flex flex-col max-w-2xl">
@@ -13,7 +13,7 @@
           <button class="p-4 px-6 rounded-md border-2 border-black hover:bg-black hover:text-white ease-in duration-300">iOs</button>
         </div>
       </div>
-      <picture>
+      <picture class="hidden md:contents">
         <img src="../assets/images/image-home.svg" alt="" class="max-w-2xl sm:max-w-sm">
       </picture>
     </div>
