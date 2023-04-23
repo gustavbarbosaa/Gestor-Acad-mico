@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div id="forum">
-    <div id="home" class="flex bg-home-background-color">
+    <div id="home" class="flex bg-background-form w-full h-screen">
       <SideBar/>
       <div>
         <h1>Forum</h1>

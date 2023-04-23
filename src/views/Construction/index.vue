@@ -2,7 +2,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div id="construction">
-    <div id="home" class="flex bg-home-background-color">
+    <div id="home" class="flex bg-background-form w-full h-screen">
       <SideBar />
       <div class="flex flex-col text-left items-center justify-center w-full gap-10 sm:m-8 sm:gap-0">
         <h2 class="text-xl text-red-600">Página em Construção</h2>

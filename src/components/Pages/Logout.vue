@@ -23,10 +23,3 @@ export default defineComponent({
   },
 });
 </script>
-
-<style scoped>
-  #logout img{
-    width: 20px;
-    height: 20px;
-  }
-</style>

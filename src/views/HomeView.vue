@@ -2,9 +2,9 @@
 <template>
   <div id="home" class="flex h-full bg-home-background-color">
     <SideBar />
-    <div class="container-home flex items-center justify-center w-full gap-10 sm:m-8 sm:gap-0">
+    <div class="flex-1 flex items-center justify-center gap-10 sm:m-8 sm:gap-0">
       <div class="flex flex-col max-w-2xl">
-        <h1 class="font-roboto font-bold text-4xl text-blue-home-color">Olá, eu sou seu <br class="inline-block lg:hidden"> Gestor <br class="inline-block lg:hidden"> Acadêmico.</h1>
+        <h1 class="font-roboto font-bold text-4xl text-blue-home-color">Olá, eu sou seu <br class="inline-block lg:hidden"> Gestor Acadêmico.</h1>
         <p class="font-roboto pt-5">
           Comigo você poderá planejar suas aulas, lançar as notas dos alunos, preencher a frequência das aulas e muito mais.
         </p>
@@ -14,7 +14,7 @@
         </div>
       </div>
       <picture class="hidden md:contents">
-        <img src="../assets/images/image-home.svg" alt="" class="max-w-2xl sm:max-w-sm">
+        <img src="../assets/images/image-home.svg" alt="" class="sm:max-w-sm">
       </picture>
     </div>
   </div>

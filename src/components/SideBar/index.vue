@@ -1,9 +1,9 @@
 <!-- eslint-disable max-len -->
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div id="side-bar" class="bg-sidebar-background-color w-62 min-w-max h-screen flex flex-col justify-between pb-4">
+  <div id="side-bar" class="flex flex-col justify-between w-64 h-full pb-4 overflow-hidden bg-sidebar-background-color">
     <div>
-      <div id="logo" class="flex items-center gap-5 mx-2 pt-3 pb-2 border-b border-border-color">
+      <div id="logo" class="flex items-center justify-between gap-5 mx-2 pt-3 pb-2 border-b border-border-color">
         <a href="/" class="flex items-center gap-2">
           <img src="../../assets/images/icon-e-ga.png" alt="" class="w-11 h-11">
           <h2 class="text-font-sidebar-color font-bold text-sm">Projeto e-GA</h2>
